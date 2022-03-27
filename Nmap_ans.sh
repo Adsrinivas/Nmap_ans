@@ -33,7 +33,7 @@ echo "                  ↓↓↓↓↓ These are Ping supported Mechain Ip Addr
 
 cat sorted_$OCTET.txt
 
-# Perform nmap scan in kali linux.
+# Perform nmap scan.
 
 echo "                                          "
 nmap -p- -A -T4 -iL sorted_$OCTET.txt >> Results.txt
